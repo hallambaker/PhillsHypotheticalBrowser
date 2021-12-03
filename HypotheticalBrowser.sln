@@ -7,8 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HypotheticalBrowser", "Hypo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{F983B16E-052E-47FC-8F9B-A93A73B39162}"
 	ProjectSection(SolutionItems) = preProject
+		Documents\Authentication.md = Documents\Authentication.md
 		Documents\Autofill.md = Documents\Autofill.md
-		Documents\Autrhentication.md = Documents\Autrhentication.md
 		Documents\BasicBrowser.md = Documents\BasicBrowser.md
 		Documents\Bookmarks.md = Documents\Bookmarks.md
 		Documents\BuildGuide.md = Documents\BuildGuide.md
