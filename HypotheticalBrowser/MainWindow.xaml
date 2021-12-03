@@ -1,0 +1,31 @@
+﻿<Window x:Class="HypotheticalBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        xmlns:local="clr-namespace:HypotheticalBrowser"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top">
+            <Button x:Name="ButtonBack"     DockPanel.Dock="Left" Click="ButtonGo_Click" Content="Back"/>
+            <Button x:Name="ButtonForward"  DockPanel.Dock="Left" Click="ButtonForward_Click" Content="Forward"/>
+            <Button x:Name="ButtonReload"   DockPanel.Dock="Left" Click="ButtonReload_Click" Content="Reload"/>
+            <Button x:Name="ButtonHome"     DockPanel.Dock="Left" Click="ButtonHome_Click" Content="Home"/>
+            
+
+            <Button x:Name="ButtonSettings" DockPanel.Dock="Right" Click="ButtonSettings_Click" Content="Settings"/>
+            <Button x:Name="ButtonBookmark" DockPanel.Dock="Right" Click="ButtonBookmark_Click" Content="Book"/>
+            <Button x:Name="ButtonAutofill" DockPanel.Dock="Right" Click="ButtonAutofill_Click" Content="Auto"/>
+            <Button x:Name="ButtonDownload" DockPanel.Dock="Right" Click="ButtonDownload_Click" Content="Down"/>
+            
+            <DockPanel>
+                <Button x:Name="ButtonSecure"   DockPanel.Dock="Left" Click="ButtonSecure_Click" Content="Secure"/>
+                <Button x:Name="ButtonGo"       DockPanel.Dock="Right" Click="ButtonGo_Click"    Content="Go"/>
+                <TextBox Name="addressBar"/>
+            </DockPanel>
+        </DockPanel>
+        <wv2:WebView2 Name="webView"  Source="https://www.microsoft.com"/>
+    </DockPanel>
+</Window>
