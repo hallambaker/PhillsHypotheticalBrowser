@@ -13,11 +13,11 @@ Currently, WebView2 and thus PHB is limited to Windows 7-11. Support for
 MacOS is promised in the near future and eventual Linux support is clearly
 on the product roadmap.
 
-* [Build Guide](Documents\BuildGuide.md)
+* [Build Guide](Documents/BuildGuide.md)
 
-* [Installation Guide](Documents\InstallationGuide.md)
+* [Installation Guide](Documents/InstallationGuide.md)
 
-* [Feature implementation issues](Documents\Implementation.md)
+* [Feature implementation issues](Documents/Implementation.md)
 
 
 ## Why write another browser?
@@ -97,15 +97,15 @@ My first goal is to demonstrate the extended Web functionality made possible by
 my main project, the [Mathematical Mesh](https://github.com/hallambaker/Mathematical-Mesh).
 These features include:
 
-* [Share bookmarks](Documents\Bookmarks.md)
+* [Share bookmarks](Documents/Bookmarks.md)
 
-* [Password vault](Documents\Autofill.md)
+* [Password vault](Documents/Autofill.md)
 
-* [Encrypted Authenticated Resource Locators](Documents\EARL.md)
+* [Encrypted Authenticated Resource Locators](Documents/EARL.md)
 
-* [Files encrypted to a Mesh encryption group](Documents\DARE.md)
+* [Files encrypted to a Mesh encryption group](Documents/DARE.md)
 
-* [Using Mesh Device credentials for Authentication](Documents\Authentication.md)
+* [Using Mesh Device credentials for Authentication](Documents/Authentication.md)
 
 The leading browsers have supported a proprietary means of storing bookmarks and passwords
 and sharing them across machines for decades and many proprietary 'password vault'
@@ -118,9 +118,9 @@ A secondary goal is to fix features that are clearly useful to the users but hav
 been removed from the browser or never implemented in the first place because
 they threaten the commercial interests of the provider.
 
-* [Site specific defaults for audio output, user agent, etc.](Documents\SiteProfile.md)
+* [Site specific defaults for audio output, user agent, etc.](Documents/SiteProfile.md)
 
-* [Certificate validation security signal](Documents\Certificate.md)
+* [Certificate validation security signal](Documents/Certificate.md)
 
 
 Finally, there is a set of features that I think should be in the browser by default 
@@ -153,7 +153,7 @@ promises support for macOS in the near future and Linux is a reasonable expectat
 There is no need for every distribution to solve these problems separately or test out
 the numerous existing open source solutions that claim to meet this need.
 
-* [Basic browser features](Documents\BasicBrowser.md)
+* [Basic browser features](Documents/BasicBrowser.md)
 
-* [Distribution issues](Documents\Distribution.md)
+* [Distribution issues](Documents/Distribution.md)
 
