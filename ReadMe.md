@@ -13,9 +13,11 @@ Currently, WebView2 and thus PHB is limited to Windows 7-11. Support for
 MacOS is promised in the near future and eventual Linux support is clearly
 on the product roadmap.
 
-* [Build Guide](BuildGuide.md)
+* [Build Guide](Documents\BuildGuide.md)
 
-* [Installation Guide](InstallationGuide.md)
+* [Installation Guide](Documents\InstallationGuide.md)
+
+* [Feature implementation issues](Documents\Implementation.md)
 
 
 ## Why write another browser?
@@ -44,6 +46,40 @@ let the user easily mute new tabs by default so that every time I visit CNN,
 an advertisement for the company that took five months to fix my windscreen
 because they lied about ordering the parts assaults my ears.
 
+Older browsers allowed for extensibility through plug in 'toolbars' and 
+extensions that hooked parts of the browser internal resolution and processing
+pipeline. Unfortunately, these capabilities were never well documented and in
+recent years have been eliminated entirely in favor of a limited 
+Javascript based extension capability which just happens to block extensions
+that might threat the commercial interests of the browser provider.
+
+### Usability experts
+
+As a security expert, I am very often called in to attend meetings for a singular
+purpose, to stop someone who is not a security person and does not understand 
+security in any degree from blocking a proposal by playing the 'security card'.
+
+Nor is this remotely unusual for those of us who do security. Security is often
+used as a pretext to prevent something happening. Saying "You can't do that 
+because of security" is so much easier than giving a real argument.
+
+Rather too often, 'usability' is used in the same way and worse, while security
+does at least have a somewhat objective definition (mitigating risk), usability
+rather too often turns out to be the unexamined prejudices of a single individual.
+
+Back in the day, the VMS console shell required every command to be typed in
+full every time and you had to type the whole thing in again if you made a 
+mistake. UNIX systems had had command line recall for a decade. The only 
+way you could get that feature in VMS was to run an unofficial patch. For years
+DEC salespeople insisted that this was an important security feature but that
+wasn't true, it was simply a personal prejudice of Dave Cutler. An update
+making the command line recall patch the default shipped the hour after Cutler left
+the company.
+
+The only way to really understand what the user is capable of understanding
+is giving them the chance to try it out. 
+
+
 ## What can PHB do?
 
 All PHB can do at the moment is to load a page in a single tab. But getting to 
@@ -61,15 +97,15 @@ My first goal is to demonstrate the extended Web functionality made possible by
 my main project, the [Mathematical Mesh](https://github.com/hallambaker/Mathematical-Mesh).
 These features include:
 
-* [Share bookmarks](Bookmarks.md)
+* [Share bookmarks](Documents\Bookmarks.md)
 
-* [Password vault](Autofill.md)
+* [Password vault](Documents\Autofill.md)
 
-* [Encrypted Authenticated Resource Locators](EARL.md)
+* [Encrypted Authenticated Resource Locators](Documents\EARL.md)
 
-* [Files encrypted to a Mesh encryption group](DARE.md)
+* [Files encrypted to a Mesh encryption group](Documents\DARE.md)
 
-* [Using Mesh Device credentials for Authentication](Authentication.md)
+* [Using Mesh Device credentials for Authentication](Documents\Authentication.md)
 
 The leading browsers have supported a proprietary means of storing bookmarks and passwords
 and sharing them across machines for decades and many proprietary 'password vault'
@@ -82,9 +118,10 @@ A secondary goal is to fix features that are clearly useful to the users but hav
 been removed from the browser or never implemented in the first place because
 they threaten the commercial interests of the provider.
 
-* [Control audio output](Audio.md)
+* [Site specific defaults for audio output, user agent, etc.](Documents\SiteProfile.md)
 
-* [Certificate validation security signal](Certificate.md)
+* [Certificate validation security signal](Documents\Certificate.md)
+
 
 Finally, there is a set of features that I think should be in the browser by default 
 for which the response to a feature request is always 'you can always use an extension'.
@@ -116,7 +153,7 @@ promises support for macOS in the near future and Linux is a reasonable expectat
 There is no need for every distribution to solve these problems separately or test out
 the numerous existing open source solutions that claim to meet this need.
 
-* [Basic browser features](BasicBrowser.md)
+* [Basic browser features](Documents\BasicBrowser.md)
 
-* [Distribution issues](Distribution.md)
+* [Distribution issues](Documents\Distribution.md)
 

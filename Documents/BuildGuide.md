@@ -21,3 +21,4 @@ The currently supported OS list is Windows 11, Windows 10, Windows 8.1, and Wind
 
 Build and run PHB in Visual Studio by hitting the **F5** key.
 
+![First Run of PHB](GitHubPage.png)

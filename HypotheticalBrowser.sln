@@ -7,19 +7,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HypotheticalBrowser", "Hypo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{F983B16E-052E-47FC-8F9B-A93A73B39162}"
 	ProjectSection(SolutionItems) = preProject
-		Audio.md = Audio.md
-		Autofill.md = Autofill.md
-		Autrhentication.md = Autrhentication.md
-		BasicBrowser.md = BasicBrowser.md
-		Bookmarks.md = Bookmarks.md
-		BuildGuide.md = BuildGuide.md
-		Certificate.md = Certificate.md
-		DARE.md = DARE.md
-		Distribution.md = Distribution.md
-		EARL.md = EARL.md
-		InstallationGuide.md = InstallationGuide.md
+		Documents\Autofill.md = Documents\Autofill.md
+		Documents\Autrhentication.md = Documents\Autrhentication.md
+		Documents\BasicBrowser.md = Documents\BasicBrowser.md
+		Documents\Bookmarks.md = Documents\Bookmarks.md
+		Documents\BuildGuide.md = Documents\BuildGuide.md
+		Documents\Certificate.md = Documents\Certificate.md
+		Documents\DARE.md = Documents\DARE.md
+		Documents\Distribution.md = Documents\Distribution.md
+		Documents\EARL.md = Documents\EARL.md
+		Documents\GitHubPage.png = Documents\GitHubPage.png
+		Documents\Implementation.md = Documents\Implementation.md
+		Documents\InstallationGuide.md = Documents\InstallationGuide.md
 		License.md = License.md
 		ReadMe.md = ReadMe.md
+		Documents\SiteProfile.md = Documents\SiteProfile.md
 	EndProjectSection
 EndProject
 Global
