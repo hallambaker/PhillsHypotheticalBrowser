@@ -5,6 +5,23 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HypotheticalBrowser", "HypotheticalBrowser\HypotheticalBrowser.csproj", "{9ED424B9-F313-4056-8953-13A9D1B97192}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{F983B16E-052E-47FC-8F9B-A93A73B39162}"
+	ProjectSection(SolutionItems) = preProject
+		Audio.md = Audio.md
+		Autofill.md = Autofill.md
+		Autrhentication.md = Autrhentication.md
+		BasicBrowser.md = BasicBrowser.md
+		Bookmarks.md = Bookmarks.md
+		BuildGuide.md = BuildGuide.md
+		Certificate.md = Certificate.md
+		DARE.md = DARE.md
+		Distribution.md = Distribution.md
+		EARL.md = EARL.md
+		InstallationGuide.md = InstallationGuide.md
+		License.md = License.md
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

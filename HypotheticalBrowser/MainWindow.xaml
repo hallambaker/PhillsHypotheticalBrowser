@@ -26,6 +26,6 @@
                 <TextBox Name="addressBar"/>
             </DockPanel>
         </DockPanel>
-        <wv2:WebView2 Name="webView"  Source="https://www.microsoft.com"/>
+        <wv2:WebView2 Name="webView"  Source="https://github.com/hallambaker/PhillsHypotheticalBrowser"/>
     </DockPanel>
 </Window>

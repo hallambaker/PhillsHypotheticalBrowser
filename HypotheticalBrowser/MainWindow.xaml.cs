@@ -28,6 +28,14 @@ public partial class MainWindow : Window {
             }
         }
 
+    private void ButtonForward_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+    private void ButtonAutofill_Click(object sender, RoutedEventArgs e) {
+
+        }
+
     private void ButtonReload_Click(object sender, RoutedEventArgs e) {
 
         }
