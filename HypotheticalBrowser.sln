@@ -24,6 +24,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		Documents\SiteProfile.md = Documents\SiteProfile.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reference", "Reference", "{115888A4-429A-4474-A07A-13764F23CA12}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Reference\Anybox.md = Documents\Reference\Anybox.md
+		Documents\Reference\CoreHistory.md = Documents\Reference\CoreHistory.md
+		Documents\Reference\DisplayContent.md = Documents\Reference\DisplayContent.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +44,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{115888A4-429A-4474-A07A-13764F23CA12} = {F983B16E-052E-47FC-8F9B-A93A73B39162}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDBAE66D-5C90-42B1-AAE9-709739D8D1D4}
