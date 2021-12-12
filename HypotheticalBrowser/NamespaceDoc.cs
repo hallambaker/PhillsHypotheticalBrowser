@@ -25,9 +25,9 @@ global using System.Collections.Generic;
 global using System.Linq;
 global using System.Text;
 global using System.Threading.Tasks;
+global using Microsoft.Web.WebView2.Wpf;
 global using Microsoft.Web.WebView2.Core;
-
-
+global using Goedel.Phb.Locate;
 #if !(_Github_)
 [assembly: System.Reflection.AssemblyKeyName("SigningKeyDeveloper")]
 #endif

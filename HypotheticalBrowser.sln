@@ -3,33 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HypotheticalBrowser", "HypotheticalBrowser\HypotheticalBrowser.csproj", "{9ED424B9-F313-4056-8953-13A9D1B97192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HypotheticalBrowser", "HypotheticalBrowser\HypotheticalBrowser.csproj", "{9ED424B9-F313-4056-8953-13A9D1B97192}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{F983B16E-052E-47FC-8F9B-A93A73B39162}"
 	ProjectSection(SolutionItems) = preProject
+		License.md = License.md
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reference", "Reference", "{115888A4-429A-4474-A07A-13764F23CA12}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Reference\Anybox.md = Documents\Reference\Anybox.md
 		Documents\Authentication.md = Documents\Authentication.md
 		Documents\Autofill.md = Documents\Autofill.md
 		Documents\BasicBrowser.md = Documents\BasicBrowser.md
 		Documents\Bookmarks.md = Documents\Bookmarks.md
 		Documents\BuildGuide.md = Documents\BuildGuide.md
 		Documents\Certificate.md = Documents\Certificate.md
+		Documents\Reference\CoreHistory.md = Documents\Reference\CoreHistory.md
 		Documents\DARE.md = Documents\DARE.md
+		Documents\Reference\DisplayContent.md = Documents\Reference\DisplayContent.md
 		Documents\Distribution.md = Documents\Distribution.md
 		Documents\EARL.md = Documents\EARL.md
 		Documents\GitHubPage.png = Documents\GitHubPage.png
 		Documents\Implementation.md = Documents\Implementation.md
 		Documents\InstallationGuide.md = Documents\InstallationGuide.md
-		License.md = License.md
-		ReadMe.md = ReadMe.md
 		Documents\SiteProfile.md = Documents\SiteProfile.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reference", "Reference", "{115888A4-429A-4474-A07A-13764F23CA12}"
-	ProjectSection(SolutionItems) = preProject
-		Documents\Reference\Anybox.md = Documents\Reference\Anybox.md
-		Documents\Reference\CoreHistory.md = Documents\Reference\CoreHistory.md
-		Documents\Reference\DisplayContent.md = Documents\Reference\DisplayContent.md
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goedel.Phb.Language", "Resources\Goedel.Phb.Language.En.Gb\Goedel.Phb.Language.csproj", "{755EB3AA-D013-4F00-B6B9-80D3F898BA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goedel.Phb.Locate", "Libraries\Goedel.Phb.Locate\Goedel.Phb.Locate.csproj", "{4D5CDA4B-4153-4E86-9DA8-D6F67B57AA8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +45,22 @@ Global
 		{9ED424B9-F313-4056-8953-13A9D1B97192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ED424B9-F313-4056-8953-13A9D1B97192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ED424B9-F313-4056-8953-13A9D1B97192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755EB3AA-D013-4F00-B6B9-80D3F898BA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755EB3AA-D013-4F00-B6B9-80D3F898BA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755EB3AA-D013-4F00-B6B9-80D3F898BA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755EB3AA-D013-4F00-B6B9-80D3F898BA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5CDA4B-4153-4E86-9DA8-D6F67B57AA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5CDA4B-4153-4E86-9DA8-D6F67B57AA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5CDA4B-4153-4E86-9DA8-D6F67B57AA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5CDA4B-4153-4E86-9DA8-D6F67B57AA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{115888A4-429A-4474-A07A-13764F23CA12} = {F983B16E-052E-47FC-8F9B-A93A73B39162}
+		{755EB3AA-D013-4F00-B6B9-80D3F898BA36} = {F983B16E-052E-47FC-8F9B-A93A73B39162}
+		{4D5CDA4B-4153-4E86-9DA8-D6F67B57AA8B} = {F983B16E-052E-47FC-8F9B-A93A73B39162}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDBAE66D-5C90-42B1-AAE9-709739D8D1D4}

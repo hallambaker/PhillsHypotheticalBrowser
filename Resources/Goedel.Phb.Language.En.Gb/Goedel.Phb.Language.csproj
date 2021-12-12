@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Goedel.Phb.Language.En.Gb</RootNamespace>
+    <AssemblyName>Goedel.Phb.Language.En.Gb</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MeshReferenceLibraryClient" Version="1.0.0-rc.4" />
+    <None Remove="AccessDenied.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AccessDenied.html" />
+  </ItemGroup>
+
+</Project>

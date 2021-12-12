@@ -45,6 +45,9 @@ public partial class MainWindow : Window {
     public History History { get; }
     public HistoryTab HistoryTab { get; }
 
+    Locate Locate = new();
+
+
     public MainWindow() {
 
         History = new History();
@@ -54,11 +57,25 @@ public partial class MainWindow : Window {
 
 
         InitializeComponent();
+        InitializeCore(webView);
+
+        //webView.NavigationStarting += AddHistory;
 
 
-        webView.NavigationStarting += AddHistory;
+        //var coreWebView2Environment = new CoreWebView2Environment() {
+        //    }
+
 
         }
+
+    async void InitializeCore(WebView2 webView2) {
+        await webView2.EnsureCoreWebView2Async();
+
+        var core = webView2.CoreWebView2;
+        core.AddWebResourceRequestedFilter("*", CoreWebView2WebResourceContext.Document);
+        core.WebResourceRequested += Locate.ProcessLocate;
+        }
+
 
     void AddHistory(object sender, CoreWebView2NavigationStartingEventArgs args) {
         var uri = args.Uri;

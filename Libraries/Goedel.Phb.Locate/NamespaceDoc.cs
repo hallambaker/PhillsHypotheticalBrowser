@@ -20,67 +20,26 @@
 //  THE SOFTWARE.
 #endregion
 
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Microsoft.Web.WebView2.Wpf;
+global using Microsoft.Web.WebView2.Core;
 
-using Goedel.Mesh;
+#if !(_Github_)
+[assembly: System.Reflection.AssemblyKeyName("SigningKeyDeveloper")]
+#endif
+
 
 namespace HypotheticalBrowser;
 
-public class History {
+/// <summary>
+/// Phill's Hypothetical Browser
+/// </summary>
 
-    public List<HistoryTab> Tabs { get; } = new List<HistoryTab>();
-
-    public List<HistoryEntry> Entries { get; } = new List<HistoryEntry>();
-
-    Catalog<CatalogedEntry> Fred;
-
-    public HistoryTab CreateTab() {
-        var tab = new HistoryTab(this);
-
-        lock (this) {
-            Tabs.Add(tab);
-            }
-
-        return tab;
-        }
-
+[System.Runtime.CompilerServices.CompilerGenerated]
+class NamespaceDoc {
     }
 
-
-public class HistoryTab {
-
-    History History { get; }
-
-    public List<HistoryEntry> Entries { get; } = new List<HistoryEntry>();
-
-    internal HistoryTab(History history) {
-        History = history;
-        }
-
-    public HistoryEntry AddEntry (
-        string Uri) {
-        var entry = new HistoryEntry(this, Uri);
-
-        lock (History) {
-            Entries.Add(entry);
-            History.Entries.Add(entry);
-            }
-
-        return entry;
-        }
-
-    }
-
-public class HistoryEntry {
-
-    HistoryTab HistoryTab { get; }
-
-
-
-    internal HistoryEntry(
-                HistoryTab historyTag, 
-                string Uri ) {
-        HistoryTab = historyTag;
-        }
-
-
-    }
