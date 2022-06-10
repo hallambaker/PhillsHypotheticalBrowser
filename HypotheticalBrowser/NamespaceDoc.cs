@@ -28,6 +28,11 @@ global using System.Threading.Tasks;
 global using Microsoft.Web.WebView2.Wpf;
 global using Microsoft.Web.WebView2.Core;
 global using Goedel.Phb.Locate;
+global using Goedel.Cryptography.Dare;
+
+global using Goedel.Mesh;
+global using Goedel.Mesh.Client;
+
 #if !(_Github_)
 [assembly: System.Reflection.AssemblyKeyName("SigningKeyDeveloper")]
 #endif

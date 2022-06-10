@@ -1,6 +1,4 @@
-﻿
-
-namespace Goedel.Phb.LanguagePhb;
+﻿namespace Goedel.Phb.Language.En.Gb;
 
 public class LanguagePhb : Language {
 

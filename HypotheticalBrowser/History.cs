@@ -31,7 +31,7 @@ public class History {
 
     public List<HistoryEntry> Entries { get; } = new List<HistoryEntry>();
 
-    Catalog<CatalogedEntry> Fred;
+    //Catalog<CatalogedEntry>? Fred;
 
     public HistoryTab CreateTab() {
         var tab = new HistoryTab(this);

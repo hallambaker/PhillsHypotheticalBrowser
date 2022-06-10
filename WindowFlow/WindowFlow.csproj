@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <!--<PackageReference Include="MeshReferenceLibraryClient" Version="1.0.0-rc.4" />
+    <PackageReference Include="MeshReferenceLibraryWindows" Version="1.0.0-rc.4" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1083-prerelease" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--<ProjectReference Include="..\Libraries\Goedel.Phb.Locate\Goedel.Phb.Locate.csproj" />-->
+    <ProjectReference Include="..\Resources\Goedel.Phb.Language.En.Gb\Goedel.Phb.Language.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Goedel.Utilities;
+namespace Goedel.Phb.Language.En.Gb;
 
 /// <summary>
 /// Base class for language resources.
@@ -16,7 +16,7 @@ public abstract class Language {
 
     #region // Properties and fields
 
-    public abstract Dictionary <string, Stream?> DictionaryStreams { get; }
+    public abstract Dictionary<string, Stream?> DictionaryStreams { get; }
 
 
     ///<summary>Resource name prefix for files.</summary> 

@@ -27,13 +27,18 @@ global using System.Text;
 global using System.Threading.Tasks;
 global using Microsoft.Web.WebView2.Wpf;
 global using Microsoft.Web.WebView2.Core;
+global using Goedel.Utilities;
+
+global using System.IO;
+global using System.Net.Http;
+global using Goedel.Cryptography.Dare;
 
 #if !(_Github_)
 [assembly: System.Reflection.AssemblyKeyName("SigningKeyDeveloper")]
 #endif
 
 
-namespace HypotheticalBrowser;
+namespace Goedel.Phb.Locate;
 
 /// <summary>
 /// Phill's Hypothetical Browser

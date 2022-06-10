@@ -1,19 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MeshReferenceLibraryClient" Version="1.0.0-rc.4" />
-    <PackageReference Include="MeshReferenceLibraryWindows" Version="1.0.0-rc.4" />
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1083-prerelease" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\mmm\Libraries\Goedel.Cryptography.Jose\Goedel.Cryptography.Jose.csproj" />
+    <ProjectReference Include="..\..\mmm\Libraries\Goedel.Cryptography\Goedel.Cryptography.csproj" />
+    <ProjectReference Include="..\..\mmm\Mesh\Goedel.Mesh.Client\Goedel.Mesh.Client.csproj" />
+    <ProjectReference Include="..\..\mmm\Mesh\Goedel.Mesh.Core\Goedel.Mesh.Core.csproj" />
+    <ProjectReference Include="..\..\mmm\Mesh\Goedel.Mesh\Goedel.Mesh.csproj" />
     <ProjectReference Include="..\Libraries\Goedel.Phb.Locate\Goedel.Phb.Locate.csproj" />
     <ProjectReference Include="..\Resources\Goedel.Phb.Language.En.Gb\Goedel.Phb.Language.csproj" />
   </ItemGroup>

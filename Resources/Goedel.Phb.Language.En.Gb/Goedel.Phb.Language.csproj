@@ -9,12 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MeshReferenceLibraryClient" Version="1.0.0-rc.4" />
     <None Remove="AccessDenied.html" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="AccessDenied.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\mmm\Mesh\Goedel.Mesh.Client\Goedel.Mesh.Client.csproj" />
+    <ProjectReference Include="..\..\..\mmm\Mesh\Goedel.Mesh\Goedel.Mesh.csproj" />
   </ItemGroup>
 
 </Project>

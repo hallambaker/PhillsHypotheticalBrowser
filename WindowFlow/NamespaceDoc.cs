@@ -22,18 +22,18 @@
 
 global using System;
 global using System.Collections.Generic;
-global using System.Reflection;
+global using System.Windows;
 global using System.Text;
 global using System.Threading.Tasks;
-
-global using Goedel.Utilities;
-
+//global using Microsoft.Web.WebView2.Wpf;
+//global using Microsoft.Web.WebView2.Core;
+//global using Goedel.Phb.Locate;
 #if !(_Github_)
-[assembly: AssemblyKeyName("SigningKeyDeveloper")]
+[assembly: System.Reflection.AssemblyKeyName("SigningKeyDeveloper")]
 #endif
 
 
-namespace Goedel.Phb.Language.En.Gb;
+namespace WindowFlow;
 
 /// <summary>
 /// Phill's Hypothetical Browser

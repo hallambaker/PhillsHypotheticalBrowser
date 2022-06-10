@@ -1,13 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+      <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Resources\Goedel.Phb.Language.En.Gb\Goedel.Phb.Language.csproj" />    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1083-prerelease" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1083-prerelease" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <ProjectReference Include="..\..\Resources\Goedel.Phb.Language.En.Gb\Goedel.Phb.Language.csproj" />
   </ItemGroup>
 
 </Project>
